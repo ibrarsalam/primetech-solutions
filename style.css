@@ -3255,9 +3255,10 @@ section {
     }
 
     .logo-icon-img {
-        width: 48px !important;
-        height: 48px !important;
+        width: 56px !important;
+        height: 56px !important;
         flex-shrink: 0 !important;
+
     }
 
     .logo-wrapper {
@@ -3267,15 +3268,16 @@ section {
     }
 
     .logo-img {
-        width: 185px !important;
-        max-width: 185px !important;
+        width: 190px !important;
+        max-width: 190px !important;
+
     }
 
     .logo-sub {
         font-size: 8px !important;
-        letter-spacing: 1.1px !important;
-        margin-left: 0 !important;
-        padding-left: 0 !important;
+        letter-spacing: 1.4px !important;
+        margin-top: -2px !important;
+        margin-left: 2px !important;
         white-space: nowrap !important;
     }
 
