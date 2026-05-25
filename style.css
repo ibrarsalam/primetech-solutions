@@ -74,7 +74,7 @@ body {
 }
 
 .logo-sub {
-    font-size: 8px !important;
+    font-size: 9px;
 
     color: #0d1b2a;
 
@@ -82,7 +82,7 @@ body {
 
     padding: 3px 10px;
 
-    margin-top: 4px !important;
+    margin-top: -2px;
 
     margin-left: -5px;
 
@@ -194,8 +194,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 44px;
-    line-height: 1.2;
+    font-size: 48px;
 
     margin-bottom: 20px;
 }
@@ -426,7 +425,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
     .logo img,
@@ -3254,7 +3252,6 @@ section {
         flex-direction: row !important;
         align-items: center !important;
         max-width: 82% !important;
-        transform: translateY(-4px);
     }
 
     .logo-icon-img {
@@ -3270,8 +3267,8 @@ section {
     }
 
     .logo-img {
-        width: 175px !important;
-        max-width: 175px !important;
+        width: 185px !important;
+        max-width: 185px !important;
     }
 
     .logo-sub {
