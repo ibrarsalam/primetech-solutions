@@ -426,6 +426,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: translateY(-4px);
 }
 
     .logo img,
