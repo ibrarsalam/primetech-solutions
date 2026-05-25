@@ -408,7 +408,6 @@ body {
 }
 
 /* Mobile Responsive */
-/* Mobile Responsive */
 @media (max-width: 768px) {
 
     .navbar {
@@ -422,16 +421,32 @@ body {
         align-items: center;
     }
 
+    .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
     .logo img,
     .logo-img {
-        width: 210px;
+        width: 230px;
         max-width: 100%;
     }
 
     .logo-sub,
     .tagline {
-        font-size: 10px;
-        letter-spacing: 1.4px;
+        font-size: 9px;
+        letter-spacing: 1.8px;
+        margin-top: 2px;
+    }
+
+    .navbar-inner {
+        gap: 18px;
+    }
+
+    .menu-toggle {
+        margin-left: auto;
+        font-size: 30px;
     }
 
     .menu-toggle {
