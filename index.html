@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>PrimeTech | Professional IT Support Services</title>
+    <meta name="description"
+    content="PrimeTech provides professional IT support, Server management, Networking, and Technical solutions in Afghanistan.">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta property="og:title"
+content="PrimeTech IT Solutions">
+
+<meta property="og:description"
+content="Professional IT support and infrastructure solutions.">
+
+<meta property="og:image"
+content="images/server.jpg">
+</head>
+
+<body>
+
+    
+    <!-- Navigation -->
+
+ <nav class="navbar">
+
+    <div class="navbar-inner">
+
+    <a href="index.html" class="logo">
+
+    <img src="images/logo-icon.png"
+    alt="PrimeTech Icon"
+    class="logo-icon-img">
+
+    <div class="logo-wrapper">
+
+        <img src="images/logo.png"
+        alt="PrimeTech Logo"
+        class="logo-img">
+
+        <span class="logo-sub">
+            Support That Stays Connected
+        </span>
+
+    </div>
+
+</a>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+        <li class="mega-menu-parent" id="solutionsMega">
+
+            <a href="solutions.html">
+            Solutions
+            <i class="fas fa-chevron-down nav-arrow"></i>
+            </a>
+
+            <div class="mega-menu">
+
+                <div class="mega-column">
+                    <h4>By Industry</h4>
+
+                    <a href="#"><i class="fas fa-building-columns"></i>Government</a>
+                    <a href="#"><i class="fas fa-building"></i>Enterprise</a>
+                    <a href="#"><i class="fas fa-landmark"></i>Financial</a>
+                    <a href="#"><i class="fas fa-graduation-cap"></i>Education</a>
+                </div>
+
+                <div class="mega-column">
+                    <h4>By Need</h4>
+
+                    <a href="#"><i class="fas fa-id-badge"></i>Secure Identity</a>
+                    <a href="#"><i class="fas fa-shield"></i>Infrastructure Protection</a>
+                    <a href="#"><i class="fas fa-key"></i>PKI & Certificates</a>
+                    <a href="#"><i class="fas fa-id-card"></i>Secure Printing</a>
+                </div>
+
+                <div class="mega-feature">
+                    <h4>Enterprise Security</h4>
+
+                    <p>
+                        PrimeTech delivers enterprise-grade secure infrastructure,
+                        PKI, cybersecurity, secure printing,
+                        and digital identity solutions.
+                    </p>
+
+                    <a href="services.html" class="mega-feature-link">
+                        Explore Solutions →
+                    </a>
+                </div>
+
+                <div class="mega-insight">
+
+                <div class="mega-insight-shape">
+                    <i class="fas fa-shield-halved"></i>
+                </div>
+
+                <div>
+                    <h4>Secure Infrastructure Lifecycle</h4>
+
+                    <p>
+                        Protect identity, systems, networks,
+                        and enterprise operations with trusted
+                        technology services.
+                    </p>
+
+                    <a href="services.html">
+                        Learn More →
+                    </a>
+                </div>
+
+                </div>
+                <div class="mega-menu-footer">
+                    <a href="services.html">View All Solutions</a>
+                </div>
+
+            </div>
+
+        </li>
+        <li>
+    <a href="services.html">
+        Services
+    </a>
+</li>
+
+<li class="dropdown-parent">
+
+        <a href="resources.html">
+            Resources
+            <i class="fas fa-chevron-down nav-arrow"></i>
+            </a>
+
+    <ul class="simple-dropdown">
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="#">Case Studies</a></li>
+        <li><a href="#">FAQs</a></li>
+    </ul>
+</li>
+
+<li class="dropdown-parent">
+
+            <a href="about.html">
+            Company
+            <i class="fas fa-chevron-down nav-arrow"></i>
+            </a>
+
+    <ul class="simple-dropdown">
+        <li><a href="about.html">About PrimeTech</a></li>
+        <li><a href="about.html#mission">Mission</a></li>
+        <li><a href="about.html#team">Our Experts</a></li>
+    </ul>
+</li>
+
+<li>
+    <a href="contact.html" class="nav-cta">
+        Contact Us
+    </a>
+</li>
+
+</ul>
+</div>
+</nav>
+
+   <!-- Hero Section -->
+
+<section class="hero enterprise-hero" id="hero" data-aos="fade-up">
+
+    <div id="particles-js"></div>
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <span class="hero-label">
+                Enterprise Technology Solutions
+            </span>
+
+            <h1>
+                Secure Digital Infrastructure
+                <br>
+                <span id="typing"></span>
+            </h1>
+
+            <p>
+                PrimeTech delivers PKI, cybersecurity,
+                secure printing, networking,
+                and enterprise IT infrastructure solutions
+                for secure business environments.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="services.html" class="primary-btn">
+                    Explore Solutions
+                </a>
+
+                <a href="contact.html" class="secondary-btn">
+                    Contact Us
+                </a>
+
+            </div>
+
+            <div class="hero-tags">
+
+                <span>PKI Solutions</span>
+                <span>Cybersecurity</span>
+                <span>Secure Printing</span>
+                <span>Infrastructure</span>
+
+            </div>
+
+        </div>
+
+        <div class="hero-visual">
+
+            <div class="hero-card">
+                <i class="fas fa-user-lock"></i>
+                <h3>PKI & Digital Trust</h3>
+                <p>Certificate, identity, and cryptographic infrastructure.</p>
+            </div>
+
+            <div class="hero-card">
+                <i class="fas fa-shield-halved"></i>
+                <h3>Cybersecurity</h3>
+                <p>Enterprise protection and secure operations.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="tech-section tech-ecosystem" data-aos="fade-up">
+
+    <div class="tech-heading">
+        <span class="hero-label">Technology Ecosystem</span>
+
+        <h2>Enterprise Technologies We Work With</h2>
+
+        <p>
+            PrimeTech works across digital trust, infrastructure,
+            cybersecurity, secure identity, and enterprise IT platforms.
+        </p>
+    </div>
+
+    <div class="tech-ecosystem-grid">
+
+        <div class="tech-node large">
+            <span>Digital Trust</span>
+            <h3>Thales</h3>
+            <p>HSM, cryptographic security, and key management.</p>
+        </div>
+
+        <div class="tech-node">
+            <span>Identity Security</span>
+            <h3>Entrust</h3>
+        </div>
+
+        <div class="tech-node">
+            <span>Platform</span>
+            <h3>Microsoft</h3>
+        </div>
+
+        <div class="tech-node">
+            <span>Networking</span>
+            <h3>Cisco</h3>
+        </div>
+
+        <div class="tech-node">
+            <span>Security</span>
+            <h3>Fortinet</h3>
+        </div>
+
+        <div class="tech-node">
+            <span>Systems</span>
+            <h3>Linux</h3>
+        </div>
+
+        <div class="tech-node">
+            <span>Virtualization</span>
+            <h3>VMware</h3>
+        </div>
+
+        <div class="tech-node">
+            <span>Cloud</span>
+            <h3>AWS</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="platform-section" data-aos="fade-up">
+
+    <div class="platform-content">
+
+        <span class="hero-label">PrimeTech Platform</span>
+
+        <h2>Integrated Digital Trust Architecture</h2>
+
+        <p>
+            PrimeTech connects identity, PKI, cybersecurity,
+            secure printing, network infrastructure,
+            and enterprise IT operations into one reliable
+            technology ecosystem.
+        </p>
+
+        <a href="services.html" class="primary-btn">
+            Explore Our Platform
+        </a>
+
+    </div>
+
+    <div class="platform-map">
+
+        <div class="platform-card">Identity Security</div>
+        <div class="platform-card">PKI Infrastructure</div>
+        <div class="platform-card">Cybersecurity</div>
+        <div class="platform-card">Secure Printing</div>
+        <div class="platform-card">Network Operations</div>
+
+        <div class="platform-core">
+            Enterprise Protection
+        </div>
+
+    </div>
+
+</section>
+<section class="enterprise-trust" data-aos="fade-up">
+
+    <div class="trust-header">
+
+        <span class="hero-label">
+            Enterprise Reliability
+        </span>
+
+        <h2>Trusted Digital Infrastructure Operations</h2>
+
+        <p>
+            PrimeTech delivers secure infrastructure,
+            PKI, cybersecurity, and enterprise IT services
+            designed for operational continuity and protection.
+        </p>
+
+    </div>
+
+    <div class="trust-metrics">
+
+        <div class="metric-card">
+            <h3>99.9%</h3>
+            <p>Operational Reliability</p>
+        </div>
+
+        <div class="metric-card">
+            <h3>24/7</h3>
+            <p>Infrastructure Monitoring</p>
+        </div>
+
+        <div class="metric-card">
+            <h3>10+</h3>
+            <p>Enterprise Technologies</p>
+        </div>
+
+        <div class="metric-card">
+            <h3>Secure</h3>
+            <p>Identity & PKI Operations</p>
+        </div>
+
+    </div>
+
+</section>
+    <!-- Services Section -->
+
+  <section class="services" id="services" data-aos="fade-up">
+
+    <h2>Our Services</h2>
+
+    <div class="services-container">
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-id-card"></i>
+            <h3>Secure Printing</h3>
+            <p>Chip personalization, laser engraving, and secure card printing solutions.</p>
+        </div>
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-user-lock"></i>
+            <h3>PKI Solutions</h3>
+            <p>
+                Public Key Infrastructure solutions including certificate management, 
+                cryptographic operations, HSM integration, digital authentication,
+                and secure identity services.
+            </p>
+        </div>
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-shield-halved"></i>
+            <h3>Cybersecurity Solutions</h3>
+            <p>Enterprise cybersecurity, infrastructure protection, and advanced security monitoring services.</p>
+        </div>
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="400">
+            <i class="fas fa-computer"></i>
+            <h3>Hardware Support</h3>
+            <p>Computer repair and troubleshooting.</p>
+        </div>
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="500">
+            <i class="fas fa-network-wired"></i>
+            <h3>Network Support</h3>
+            <p>Network setup and maintenance.</p>
+        </div>
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="600">
+            <i class="fas fa-server"></i>
+            <h3>Server Management</h3>
+            <p>Windows and Linux server support.</p>
+        </div>
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="700">
+            <i class="fas fa-database"></i>
+            <h3>Backup & Recovery</h3>
+            <p>Data backup planning, recovery support, and disaster recovery solutions.</p>
+        </div>
+
+        <div class="service-box" data-aos="fade-up" data-aos-delay="800">
+            <i class="fas fa-briefcase"></i>
+            <h3>IT Consulting</h3>
+            <p>Professional IT planning and guidance for business technology improvement.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="trust-section" data-aos="fade-up">
+
+    <h2>Why Choose PrimeTech?</h2>
+
+    <div class="trust-container">
+
+        <div class="trust-box"data-aos="fade-up"data-aos-delay="100">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Reliable technical assistance anytime you need it.</p>
+        </div>
+
+        <div class="trust-box"data-aos="fade-up"data-aos-delay="200">
+            <i class="fas fa-user-lock"></i>
+            <h3>Secure Solutions</h3>
+            <p>Professional and secure IT infrastructure management.</p>
+        </div>
+
+        <div class="trust-box"data-aos="fade-up"data-aos-delay="300">
+            <i class="fas fa-clock"></i>
+            <h3>Fast Response</h3>
+            <p>Quick troubleshooting and issue resolution.</p>
+        </div>
+
+        <div class="trust-box"data-aos="fade-up"data-aos-delay="400">
+            <i class="fas fa-server"></i>
+            <h3>Enterprise Reliability</h3>
+            <p>Stable server and network management solutions.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="testimonials" data-aos="fade-up">
+
+    <h2>What Our Clients Say</h2>
+
+    <div class="testimonials-container">
+
+        <div class="testimonial-box">
+
+            <i class="fas fa-quote-left"></i>
+
+            <p>
+                PrimeTech delivered professional secure printing,
+                HSM & key management, server administration,
+                and network infrastructure support for our organization.
+            </p>
+
+            <h4>— Akmal Elam.</h4>
+
+        </div>
+
+        <div class="testimonial-box">
+
+            <i class="fas fa-quote-left"></i>
+
+            <p>
+                Providing rapid technical response, efficient issue resolution,
+                and professional infrastructure troubleshooting services.
+            </p>
+
+            <h4>— Sara M.</h4>
+
+        </div>
+
+        <div class="testimonial-box">
+
+            <i class="fas fa-quote-left"></i>
+
+            <p>
+                Providing reliable IT infrastructure support,
+                professional communication,
+                and advanced technical expertise for business environments.
+            </p>
+
+            <h4>— Daniel R.</h4>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="counter-section" data-aos="fade-up">
+
+    <div class="counter-container">
+
+        <div class="counter-box">
+
+            <h2 class="counter" data-target="500">0</h2>
+
+            <p>Clients Supported</p>
+
+        </div>
+
+        <div class="counter-box">
+
+            <h2 class="counter" data-target="99">0</h2>
+
+            <p>System Uptime %</p>
+
+        </div>
+
+        <div class="counter-box">
+
+            <h2 class="counter" data-target="24">0</h2>
+
+            <p>24/7 Support</p>
+
+        </div>
+
+        <div class="counter-box">
+
+            <h2 class="counter" data-target="5">0</h2>
+
+            <p>Years Experience</p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="portfolio-section" data-aos="fade-up">
+
+    <h2>Recent Projects</h2>
+
+            <p class="section-subtitle">
+                Delivering secure infrastructure,
+                HSM solutions,
+                secure printing,
+                and enterprise IT services.
+            </p>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-box" data-aos="fade-up" data-aos-delay="100">
+
+            <img src="images/secure-printing.jpg"
+                alt="Secure Printing">
+
+            <h3>Secure Printing</h3>
+
+            <p>
+                Secure chip personalization,
+                laser engraving,
+                and identity card printing solutions.
+            </p>
+
+        </div>
+        <div class="portfolio-box" data-aos="fade-up" data-aos-delay="200">
+
+            <img src="images/cryptography.jpg"
+                alt="PKI Solutions">
+
+            <h3>PKI Solutions</h3>
+
+            <p>
+                Public Key Infrastructure solutions including certificate management, 
+                cryptographic operations, HSM integration, digital authentication,
+                and secure identity services.
+            </p>
+
+        </div>
+        <div class="portfolio-box" data-aos="fade-up" data-aos-delay="300">
+
+        <img src="images/cybersecurity.jpg"
+         alt="Cybersecurity Solutions">
+
+            <h3>Cybersecurity Solutions</h3>
+
+            <p>
+                Enterprise infrastructure protection,
+                security monitoring,
+                and advanced cybersecurity services.
+            </p>
+
+        </div>
+        <div class="portfolio-box" data-aos="fade-up" data-aos-delay="400">
+
+            <img src="images/network.jpg"
+                 alt="Network Infrastructure"
+                 loading="lazy">
+
+            <h3>Network Infrastructure Setup</h3>
+
+            <p>
+                Structured network deployment
+                and secure connectivity solutions.
+            </p>
+
+        </div>
+
+        <div class="portfolio-box" data-aos="fade-up" data-aos-delay="500">
+
+            <img src="images/server.jpg"
+                 alt="Server Management"
+                 loading="lazy">
+
+            <h3>Server Administration</h3>
+
+            <p>
+                Windows and Linux server
+                management and monitoring.
+            </p>
+
+        </div>
+
+        <div class="portfolio-box" data-aos="fade-up" data-aos-delay="600">
+
+            <img src="images/support.jpg"
+                 alt="IT Support"
+                 loading="lazy">
+
+            <h3>Technical Support</h3>
+
+            <p>
+                Professional troubleshooting
+                and infrastructure maintenance.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- Image Section -->
+
+    <section class="infrastructure-section" data-aos="fade-up">
+
+    <div class="infrastructure-content">
+
+        <span class="hero-label">
+            Enterprise Infrastructure
+        </span>
+
+        <h2>Reliable IT Infrastructure</h2>
+
+        <p>
+            We help organizations manage systems,
+            networks, servers, cybersecurity,
+            PKI operations, and enterprise
+            technology environments with reliability
+            and operational security.
+        </p>
+
+        <div class="infra-points">
+
+            <div>
+                <i class="fas fa-server"></i>
+                Server Operations
+            </div>
+
+            <div>
+                <i class="fas fa-network-wired"></i>
+                Network Infrastructure
+            </div>
+
+            <div>
+                <i class="fas fa-shield-halved"></i>
+                Infrastructure Protection
+            </div>
+
+            <div>
+                <i class="fas fa-user-lock"></i>
+                PKI & Identity Security
+            </div>
+
+        </div>
+
+        <a href="services.html" class="primary-btn">
+            Explore Infrastructure
+        </a>
+
+    </div>
+
+    <div class="infra-dashboard">
+
+    <div class="dashboard-header">
+        <span>Infrastructure Operations</span>
+        <strong>Live Enterprise View</strong>
+    </div>
+
+    <div class="dashboard-grid">
+
+        <div class="dashboard-tile large">
+            <i class="fas fa-server"></i>
+            <h3>Server Fleet</h3>
+            <p>Windows & Linux operations</p>
+        </div>
+
+        <div class="dashboard-tile">
+            <span class="status-dot"></span>
+            <h3>99.9%</h3>
+            <p>Reliability Target</p>
+        </div>
+
+        <div class="dashboard-tile">
+            <i class="fas fa-shield-halved"></i>
+            <h3>Protected</h3>
+            <p>Infrastructure security</p>
+        </div>
+
+        <div class="dashboard-tile wide">
+            <i class="fas fa-network-wired"></i>
+            <h3>Network Operations</h3>
+            <p>Routing, switching, connectivity, and monitoring.</p>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+<section class="cta-section" data-aos="zoom-in">
+
+    <h2>
+        Ready To Upgrade Your IT Infrastructure?
+    </h2>
+
+    <p>
+        Contact PrimeTech today for professional
+        IT support and infrastructure solutions.
+    </p>
+
+    <a href="contact.html" class="cta-button">
+        Get Started
+    </a>
+
+</section>
+    <!-- Footer -->
+
+   <footer class="footer">
+
+    <div class="footer-main">
+
+        <div class="footer-newsletter">
+            <h2>Stay Connected</h2>
+            <p>Get updates about PrimeTech services, secure infrastructure, PKI, cybersecurity, and enterprise technology solutions.</p>
+
+            <img src="images/logo.png"
+            alt="PrimeTech Logo"
+            class="footer-logo">
+        </div>
+
+        <div class="footer-links">
+            <h3>Company</h3>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Services</h3>
+            <a href="services.html#secure-printing">Secure Printing</a>
+            <a href="services.html#pki">PKI Solutions</a>
+            <a href="services.html#cybersecurity">Cybersecurity</a>
+            <a href="services.html">Infrastructure</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Contact</h3>
+            <p>Email: info@primetech.com</p>
+            <p>Phone: +93 785555520</p>
+            <p>Kabul, Afghanistan</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 PrimeTech | All Rights Reserved</p>
+    </div>
+
+</footer>
+<a href="https://wa.me/+93785555520"
+class="support-float"
+target="_blank">
+
+    <i class="fas fa-comment-dots"></i>
+
+</a>
+<script
+src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+</script>
+
+<script
+src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+</script>
+
+<!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
