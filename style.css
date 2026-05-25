@@ -3248,6 +3248,7 @@ section {
     }
 
     .logo {
+        display: flex !important;
         flex-direction: row !important;
         align-items: center !important;
         max-width: 82% !important;
@@ -3256,6 +3257,13 @@ section {
     .logo-icon-img {
         width: 48px !important;
         height: 48px !important;
+        flex-shrink: 0 !important;
+    }
+
+    .logo-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
     }
 
     .logo-img {
