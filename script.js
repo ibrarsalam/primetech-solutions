@@ -50,7 +50,7 @@ function eraseEffect() {
     }
 }
 
-typeEffect();
+// typeEffect();
 
 const counters = document.querySelectorAll(".counter");
 
@@ -83,7 +83,7 @@ if (
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 80
+                value: 45
             },
 
             color: {
@@ -95,7 +95,7 @@ if (
             },
 
             opacity: {
-                value: 0.5
+                value: 0.18
             },
 
             size: {
