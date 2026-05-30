@@ -146,19 +146,19 @@ document.addEventListener("click", function(event) {
 });
 
 
-const solutionsMega = document.getElementById("solutionsMega");
+const megaParents = document.querySelectorAll(".mega-menu-parent");
 
-if (solutionsMega) {
+megaParents.forEach(menu => {
     let closeTimer;
 
-    solutionsMega.addEventListener("mouseenter", () => {
+    menu.addEventListener("mouseenter", () => {
         clearTimeout(closeTimer);
-        solutionsMega.classList.add("open");
+        menu.classList.add("open");
     });
 
-    solutionsMega.addEventListener("mouseleave", () => {
+    menu.addEventListener("mouseleave", () => {
         closeTimer = setTimeout(() => {
-            solutionsMega.classList.remove("open");
+            menu.classList.remove("open");
         }, 300);
     });
-}
+});
