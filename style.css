@@ -4011,6 +4011,7 @@ section {
     .entrust-style-footer .footer-brand-row {
         grid-template-columns: 1fr !important;
         gap: 25px !important;
+        justify-items: start !important;
     }
 
     .entrust-style-footer .footer-social {
@@ -4021,6 +4022,7 @@ section {
 
     .entrust-style-footer .footer-logo {
         width: 220px !important;
+        margin-left: 0 !important;
     }
 
     .entrust-style-footer .footer-legal {
