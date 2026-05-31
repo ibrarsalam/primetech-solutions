@@ -3995,3 +3995,47 @@ section {
     color: #334155 !important;
     text-decoration: none !important;
 }
+
+@media (max-width: 768px) {
+
+    .entrust-style-footer .footer-top {
+        grid-template-columns: 1fr !important;
+        gap: 40px !important;
+        text-align: left !important;
+    }
+
+    .entrust-style-footer .footer-column {
+        width: 100%;
+    }
+
+    .entrust-style-footer .footer-brand-row {
+        grid-template-columns: 1fr !important;
+        gap: 25px !important;
+    }
+
+    .entrust-style-footer .footer-social {
+        justify-self: start !important;
+        margin-left: 0 !important;
+        transform: none !important;
+    }
+
+    .entrust-style-footer .footer-logo {
+        width: 220px !important;
+    }
+
+    .entrust-style-footer .footer-legal {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 15px !important;
+    }
+
+    .entrust-style-footer .legal-links {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+    }
+
+    .entrust-style-footer .footer-legal p {
+        margin: 0 !important;
+    }
+}
