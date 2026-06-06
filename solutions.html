@@ -474,43 +474,125 @@
 
     </div>
 
-    <div class="solution-area-list">
+    <div class="enterprise-explorer">
 
-        <div class="solution-area-item">
-            <h3>Digital Trust Infrastructure</h3>
-            <p>
-                PKI, certificates, HSM operations, SKMS,
-                cryptographic key management, and trusted authentication.
-            </p>
-        </div>
+    <div class="explorer-nav">
 
-        <div class="solution-area-item">
-            <h3>Secure Issuance & Personalization</h3>
-            <p>
-                Secure printing, chip personalization,
-                laser engraving, EMV support, and identity card issuance.
-            </p>
-        </div>
+        <button class="explorer-item active" data-target="trust">
+            
+            <span class="explorer-title">Digital Trust</span>
+        </button>
 
-        <div class="solution-area-item">
-            <h3>Enterprise Infrastructure Operations</h3>
-            <p>
-                Network infrastructure, server administration,
-                database services, OpenStack, cloud support,
-                and infrastructure monitoring.
-            </p>
-        </div>
+        <button class="explorer-item" data-target="issuance">
+            
+            <span class="explorer-title">Secure Issuance</span>
+        </button>
 
-        <div class="solution-area-item">
-            <h3>Protection & Continuity</h3>
-            <p>
-                Cybersecurity, vulnerability management,
-                backup, disaster recovery, business continuity,
-                and operational resilience.
-            </p>
-        </div>
+        <button class="explorer-item" data-target="infrastructure">
+            
+            <span class="explorer-title">Infrastructure</span>
+        </button>
+
+        <button class="explorer-item" data-target="protection">
+            
+            <span class="explorer-title">Protection & Continuity</span>
+        </button>
 
     </div>
+
+    <div class="explorer-content">
+
+       <div class="explorer-panel active" id="trust">
+
+                <h3>Digital Trust Infrastructure</h3>
+
+                <p>
+                    PrimeTech delivers enterprise digital trust platforms that establish trusted identities,
+                    protect cryptographic assets, and enable secure authentication across enterprise environments.
+                </p>
+
+                <h4>Key Capabilities</h4>
+
+                <ul>
+                    <li>PKI Design & Deployment</li>
+                    <li>Certificate Lifecycle Management</li>
+                    <li>HSM Operations</li>
+                    <li>SKMS Administration</li>
+                    <li>Trusted Authentication Services</li>
+                    <li>Cryptographic Key Protection</li>
+                </ul>
+
+            </div>
+
+        <div class="explorer-panel" id="issuance">
+
+                <h3>Secure Issuance & Personalization</h3>
+
+                <p>
+                    PrimeTech supports secure credential issuance and personalization operations that ensure
+                    identity integrity, production accuracy, and trusted card delivery.
+                </p>
+
+                <h4>Key Capabilities</h4>
+
+                <ul>
+                    <li>Secure Printing Solutions</li>
+                    <li>Chip Personalization</li>
+                    <li>Laser Engraving Operations</li>
+                    <li>EMV Personalization Support</li>
+                    <li>Identity Card Issuance</li>
+                    <li>Production Quality Verification</li>
+                </ul>
+
+            </div>
+
+        <div class="explorer-panel" id="infrastructure">
+
+                <h3>Enterprise Infrastructure Operations</h3>
+
+                <p>
+                    PrimeTech designs, deploys, and manages enterprise infrastructure platforms that provide
+                    reliability, scalability, and operational efficiency across business environments.
+                </p>
+
+                <h4>Key Capabilities</h4>
+
+                <ul>
+                    <li>Network Design & Implementation</li>
+                    <li>Routing & Switching</li>
+                    <li>Server Administration</li>
+                    <li>Database Services</li>
+                    <li>OpenStack Platforms</li>
+                    <li>Infrastructure Monitoring</li>
+                </ul>
+
+            </div>
+
+        <div class="explorer-panel" id="protection">
+
+                <h3>Protection & Continuity</h3>
+
+                <p>
+                    PrimeTech helps organizations strengthen security posture, maintain business continuity,
+                    and ensure operational resilience through proactive protection strategies.
+                </p>
+
+                <h4>Key Capabilities</h4>
+
+                <ul>
+                    <li>Cybersecurity Operations</li>
+                    <li>Vulnerability Management</li>
+                    <li>Backup Solutions</li>
+                    <li>Disaster Recovery</li>
+                    <li>Business Continuity Planning</li>
+                    <li>Operational Resilience Services</li>
+                </ul>
+
+            </div>
+
+    </div>
+
+</div>
 
 </section>
 <section class="solution-architecture" data-aos="fade-up">
@@ -655,6 +737,37 @@ target="_blank">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
 
+<script>
+
+const explorerItems =
+document.querySelectorAll(".explorer-item");
+
+const explorerPanels =
+document.querySelectorAll(".explorer-panel");
+
+explorerItems.forEach(item => {
+
+    item.addEventListener("click", () => {
+
+        explorerItems.forEach(btn =>
+            btn.classList.remove("active")
+        );
+
+        explorerPanels.forEach(panel =>
+            panel.classList.remove("active")
+        );
+
+        item.classList.add("active");
+
+        document
+            .getElementById(item.dataset.target)
+            .classList.add("active");
+
+    });
+
+});
+
+</script>
 </body>
 
 </html>

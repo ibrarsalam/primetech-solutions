@@ -142,7 +142,7 @@
 
     <a href="services.html" class="active-nav">
         Services
-        <i class="fas fa-chevron-down nav-arrow"></i>
+        
     </a>
 
     <div class="mega-menu">
@@ -487,75 +487,167 @@
 
     </div>
 
-    <div class="service-area-list">
+    <div class="service-explorer">
 
-        <div class="service-area-item">
-            <h3>Secure Printing Solutions</h3>
-            <p>
-                Secure issuance, chip personalization,
-                laser engraving, EMV support,
-                and identity production operations.
-            </p>
-        </div>
+    <div class="service-tabs">
 
-        <div class="service-area-item">
-            <h3>PKI Solutions</h3>
-            <p>
-                Certificate lifecycle management,
-                HSM operations, SKMS services,
-                cryptographic key management,
-                and trusted authentication support.
-            </p>
-        </div>
+        <button class="service-tab active" type="button" data-service="service-secure-printing">
+            Secure Printing
+        </button>
 
-        <div class="service-area-item">
-            <h3>Network Infrastructure Solutions</h3>
-            <p>
-                Network design, LAN/WAN deployment,
-                routing, switching, VPN services,
-                monitoring, and enterprise connectivity.
-            </p>
-        </div>
+        <button class="service-tab" type="button" data-service="service-pki">
+            PKI Solutions
+        </button>
 
-        <div class="service-area-item">
-            <h3>System Administration</h3>
-            <p>
-                Windows and Linux administration,
-                server integration, database administration,
-                cloud support, OpenStack, monitoring,
-                and patch management.
-            </p>
-        </div>
+        <button class="service-tab" type="button" data-service="service-network">
+            Network
+        </button>
 
-        <div class="service-area-item">
-            <h3>Cybersecurity Services</h3>
-            <p>
-                Security assessment, system hardening,
-                vulnerability management, access control,
-                monitoring, and incident response support.
-            </p>
-        </div>
+        <button class="service-tab" type="button" data-service="service-systems">
+            Systems
+        </button>
 
-        <div class="service-area-item">
-            <h3>Business Continuity</h3>
-            <p>
-                Backup solutions, disaster recovery planning,
-                recovery testing, data protection,
-                and continuity support for critical systems.
-            </p>
-        </div>
+        <button class="service-tab" type="button" data-service="service-cybersecurity">
+            Cybersecurity
+        </button>
 
-        <div class="service-area-item">
-            <h3>Managed Technology Operations</h3>
-            <p>
-                IT consulting, help desk support,
-                remote assistance, infrastructure support,
-                technical advisory, and managed IT operations.
-            </p>
-        </div>
+        <button class="service-tab" type="button" data-service="service-continuity">
+            Continuity
+        </button>
+
+        <button class="service-tab" type="button" data-service="service-managed">
+            Managed Ops
+        </button>
 
     </div>
 
+    <div class="service-detail active" id="service-secure-printing">
+        <h3>Secure Printing Solutions</h3>
+        <p>
+            PrimeTech supports secure issuance and identity production environments through
+            reliable secure printing, personalization, and production operation services.
+        </p>
+
+        <h4>Key Capabilities</h4>
+        <ul>
+            <li>Chip Personalization</li>
+            <li>Card Issuance Support</li>
+            <li>Laser Engraving Operations</li>
+            <li>EMV Personalization Support</li>
+            <li>Secure Data Preparation</li>
+            <li>Production Quality Verification</li>
+        </ul>
+    </div>
+
+    <div class="service-detail" id="service-pki">
+        <h3>PKI Solutions</h3>
+        <p>
+            PrimeTech delivers PKI services that help organizations manage certificates,
+            cryptographic operations, HSM environments, and trusted authentication services.
+        </p>
+
+        <h4>Key Capabilities</h4>
+        <ul>
+            <li>PKI Design & Deployment</li>
+            <li>Certificate Lifecycle Management</li>
+            <li>HSM Operations</li>
+            <li>SKMS Services</li>
+            <li>Certificate Automation</li>
+            <li>Certificate Policy & CPS Support</li>
+        </ul>
+    </div>
+
+    <div class="service-detail" id="service-network">
+        <h3>Network Infrastructure Solutions</h3>
+        <p>
+            PrimeTech provides network infrastructure services that support secure connectivity,
+            reliable communication, and stable enterprise operations.
+        </p>
+
+        <h4>Key Capabilities</h4>
+        <ul>
+            <li>Network Design & Implementation</li>
+            <li>Routing & Switching</li>
+            <li>Firewall & Security Support</li>
+            <li>Wireless & WAN Services</li>
+            <li>Network Monitoring</li>
+            <li>SD-WAN Support</li>
+        </ul>
+    </div>
+
+    <div class="service-detail" id="service-systems">
+        <h3>System Administration</h3>
+        <p>
+            PrimeTech manages enterprise systems and server platforms to support reliable,
+            secure, and efficient technology operations.
+        </p>
+
+        <h4>Key Capabilities</h4>
+        <ul>
+            <li>Server Administration</li>
+            <li>Server Integration</li>
+            <li>Cloud Support</li>
+            <li>Database Administration</li>
+            <li>OpenStack Services</li>
+            <li>Backup & Recovery Support</li>
+        </ul>
+    </div>
+
+    <div class="service-detail" id="service-cybersecurity">
+        <h3>Cybersecurity Services</h3>
+        <p>
+            PrimeTech helps organizations strengthen security posture through assessment,
+            hardening, monitoring, and operational security support.
+        </p>
+
+        <h4>Key Capabilities</h4>
+        <ul>
+            <li>Security Assessments</li>
+            <li>Vulnerability Management</li>
+            <li>System Hardening</li>
+            <li>Access Control Support</li>
+            <li>Security Monitoring</li>
+            <li>Incident Response Support</li>
+        </ul>
+    </div>
+
+    <div class="service-detail" id="service-continuity">
+        <h3>Business Continuity</h3>
+        <p>
+            PrimeTech supports continuity planning and recovery readiness for critical
+            systems, infrastructure, and business operations.
+        </p>
+
+        <h4>Key Capabilities</h4>
+        <ul>
+            <li>Backup Solutions</li>
+            <li>Disaster Recovery Planning</li>
+            <li>Recovery Testing</li>
+            <li>Data Protection</li>
+            <li>Business Continuity Planning</li>
+            <li>Critical System Recovery</li>
+        </ul>
+    </div>
+
+    <div class="service-detail" id="service-managed">
+        <h3>Managed Technology Operations</h3>
+        <p>
+            PrimeTech provides practical technical support and advisory services for
+            organizations that need reliable day-to-day IT operations.
+        </p>
+
+        <h4>Key Capabilities</h4>
+        <ul>
+            <li>IT Consulting</li>
+            <li>Help Desk Support</li>
+            <li>Remote Assistance</li>
+            <li>Infrastructure Support</li>
+            <li>Technical Advisory</li>
+            <li>Managed IT Operations</li>
+        </ul>
+    </div>
+
+</div>
 </section>
 
 <section class="service-process" data-aos="fade-up">
@@ -806,6 +898,25 @@ target="_blank">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
 
+    <script>
+        const serviceTabs = document.querySelectorAll(".service-tab");
+        const serviceDetails = document.querySelectorAll(".service-detail");
+
+        serviceTabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                const targetId = tab.getAttribute("data-service");
+                const targetDetail = document.getElementById(targetId);
+
+                if (!targetDetail) return;
+
+                serviceTabs.forEach(item => item.classList.remove("active"));
+                serviceDetails.forEach(detail => detail.classList.remove("active"));
+
+                tab.classList.add("active");
+                targetDetail.classList.add("active");
+            });
+        });
+    </script>
 </body>
 
 </html>
