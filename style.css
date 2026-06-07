@@ -4293,9 +4293,13 @@ section {
 }
 
 .solution-areas {
-    max-width: 1200px;
+    background: #f8fafc;
+    max-width: none !important;
+    width: 100%;
     margin: auto;
     padding: 90px 5%;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
 }
 
 .solution-area-list {
@@ -4880,12 +4884,13 @@ section {
 /* Enterprise Explorer */
 
 .enterprise-explorer{
-    max-width:1400px;
-    margin:70px auto 0;
-    display:grid;
-    grid-template-columns:260px 1fr;
-    gap:40px;
+    max-width: none !important;
+    margin: 0 !important;
+    display: grid !important;
+    grid-template-columns: 220px 1fr !important;
+    gap: 30px !important;
     align-items:start;
+    width: 100% !important;
 }
 
 /* Enterprise Explorer Left Menu */
@@ -4944,10 +4949,11 @@ section {
 .explorer-content{
     background: transparent;
     border-radius: 0;
-    padding: 20px 0 20px 80px;
+    padding-left: 35px !important;
     box-shadow: none;
     border: none;
     border-left: 1px solid rgba(13,27,42,0.10);
+    width: 100% !important;
 }
 
 .explorer-panel{
@@ -4970,7 +4976,12 @@ section {
     font-size:18px;
     line-height:1.9;
     color:#475569;
-    max-width:800px;
+    max-width: none !important;
+}
+.explorer-grid,
+.enterprise-explorer-grid {
+    grid-template-columns: 220px 1fr !important;
+    gap: 20px !important;
 }
 
 
@@ -5063,9 +5074,6 @@ section {
     color: #0d1b2a;
 }
 
-.service-tab.active::after {
-    background: #f4b400;
-}
 
 .service-tab.active,
 .service-tab:hover {
@@ -5485,5 +5493,12 @@ section.consultation-areas .contact-expertise-image img {
     object-fit: cover !important;
     border-radius: 0px !important;
     display: block !important;
+}
+
+/* Final navbar stability fix */
+.nav-links > li > a,
+.nav-links > li > a.active-nav {
+    font-family: Arial, sans-serif !important;
+    font-weight: 400 !important;
 }
 
